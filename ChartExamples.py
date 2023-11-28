@@ -42,7 +42,7 @@ lblChart3 = tk.Label(text = "График matplotlib_legend")
 lblChart3.place(x=180, y=205)
 
 # Добавление кнопки и метки для графика 4
-btnChart4 = tk.Button(window, text="График 4", font = ('Helvetica', 10, 'bold'), command=chart2.plot_chart)
+btnChart4 = tk.Button(window, text="График 4", font = ('Helvetica', 10, 'bold'), command=chart2.plot_chart2)
 btnChart4.place(x=50, y=235, width=90, height=30)
 
 lblChart4 = tk.Label(text = "Нормальное распределение 3 графика")
